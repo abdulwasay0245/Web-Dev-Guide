@@ -1,3 +1,5 @@
+// All the console commands are use for debugging
+
 console.log("Hello World")
 console.error("This generates error");
 
