@@ -5,6 +5,14 @@ console.log(age)
 
 
 
+// PRIMITIVE DATA TYPES
+// NUMBER
+var age = 20;
+var discount = 20.5;
+// STRING  
+var name = "Wasay";
+// BOOLEAN
+var isLoggedIn = true;
 
 
 
