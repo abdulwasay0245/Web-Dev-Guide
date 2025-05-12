@@ -14,12 +14,18 @@ var name = "Wasay";
 // BOOLEAN
 var isLoggedIn = true;
 
+// Project: Age Calculator
+
+// Input birth year
+
+// Calculate and show age
 
 
 
 
-// process.stdin.on('data', (data) => {
-//     const name = data.toString().trim();
-//     console.log(`Hello, ${name}!`);
-//     process.exit(); // Exit the process after receiving input
-//   });
+
+process.stdin.on('data', (data) => {
+    const name = data.toString().trim();
+    console.log(`Hello, ${name}!`);
+    process.exit(); // Exit the process after receiving input
+  });
