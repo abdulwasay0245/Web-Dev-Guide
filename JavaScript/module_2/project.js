@@ -29,10 +29,12 @@ const currentYear = date.getFullYear()
 
 console.log("Enter your Birth Year");
 
+
 // process.stdout.write("Enter your Birth Year")
 process.stdin.on('data', (data) => {
     const BirthYear = data;
     const yourAge = currentYear - BirthYear
+
     console.log(yourAge)
  
     process.exit(); // Exit the process after receiving input
