@@ -14,14 +14,24 @@
 // }
 
 
-for (let index = 0; index < 140; index++) {
+// for (let index = 0; index < 140; index++) {
     
-    setTimeout(() => {
-        console.log(` ${index}`);
+//     setTimeout(() => {
+//         console.log(` ${index}`);
         
-    },  index * 300);
+//     },  index * 300);
+    
+// }
+// while (true) {
+//     console.log("hellow")
+// }
+console.table([1,2,34,5,6,7]);
+
+
+
+
+process.stdin.on('data', (data) => {
     
 }
-while (true) {
-    console.log("hellow")
-}
+
+)
